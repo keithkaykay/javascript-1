@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Learning JavaScript</title>
+    <link href="css/styles.css" rel="stylesheet" type="text/css">
+  </head>
+  <body>
+    <div class="two">
+    <button onclick="document.getElementById('myImage').src='pic_bulbon.gif'"><strong>ON</strong></button>
+    <img id="myImage" src="pic_bulboff.gif" style="width:100px">
+    <button onclick="document.getElementById('myImage').src='pic_bulboff.gif'"><strong>OFF</strong></button>
+    <p id="demo">JavaScript can change HTML content.</p>
+    <button type="button" onclick='document.getElementById("demo").innerHTML = "Hello"'>English</button>
+    <button type="button" onclick='document.getElementById("demo").innerHTML = "Habari"'>Kiswahili</button>
+    <br>
+    <button type="button"onclick="document.getElementById('demo3').innerHTML = Date()">Click me to display Date and Time.</button>
+    <br>
+    <p>
+      <script>
+        document.getElementById("demo").innerHTML = "Habari";
+      </script>
+    </p>
+    </div>
+
+    <p class="one" id="demo3"></p>
+
+    <button onclick="window.print()">Print this page</button>
+    <h2 class="two">Birthdate</h2>
+
+    <p class="one"  id="demo2">Birthdate</p>
+
+    <p>
+    <script>
+      var x;
+      x = '1';
+
+      var y;
+      y = '2';
+      document.getElementById("demo2").innerHTML = x + y;
+    </script>
+    </p>
+      
+      
+
+  </body>
+</html>

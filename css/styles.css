@@ -1,0 +1,16 @@
+body{
+  background-color: black;
+  font-family: 'Courier New', Courier, monospace;
+  text-align: center;
+}
+
+.one{
+  font-size: x-large;
+  text-decoration: deeppink;
+  color: hotpink;
+}
+
+.two{
+  color: darkorange;
+  font-size: x-large;
+}
