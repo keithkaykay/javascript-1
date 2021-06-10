@@ -8,6 +8,19 @@
     <link href="css/styles.css" rel="stylesheet" type="text/css">
   </head>
   <body>
+    <h1 class="two">
+      <script id="demo5">
+        function myFunction(){
+          var myName = prompt("What is your name?")
+        }
+        myFunction()
+        ;
+      </script>
+      
+      myName;
+    </h1>
+
+
     <div class="two">
     <button onclick="document.getElementById('myImage').src='pic_bulbon.gif'"><strong>ON</strong></button>
     <img id="myImage" src="pic_bulboff.gif" style="width:100px">
@@ -42,7 +55,22 @@
       document.getElementById("demo2").innerHTML = x + y;
     </script>
     </p>
-      
+      <p>
+        <p id="demo4"></p>
+
+        <script>
+        function toCelsius(f) {
+          return (5/9) * (f-32);
+        }
+        document.getElementById("demo4").innerHTML = "The temperature is " + toCelsius(77) + " Celsius";
+
+        function myFunction() {
+          alert("Welcome to my website");
+        }
+        myFunction()
+        ;
+        </script>
+      </p>
       
 
   </body>
